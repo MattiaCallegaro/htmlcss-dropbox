@@ -6,17 +6,27 @@
 /* contenitori */
 
 .container{
-    max-width: 1200px;
+    max-width: 1180px;
     margin:0 auto;
+    background-color: rgb(207, 147, 147);
+    height: 700px;
 }
 
 header{
-    background-color: #B4D0E6;
+    background-color: #ffffff;
     color: white;
     padding: 17px 0px;
-    position:fixed;
+    position: sticky;
     width: 100%;
     z-index: 1;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-jumbo-img{
+    width: 60%;
 }
 
 .col-logo{
@@ -39,6 +49,11 @@ header{
 }
 
 /* utility */
+
+hr{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
 a{
     text-decoration: none;
@@ -87,3 +102,18 @@ li{
     align-content: center;
     flex-wrap: wrap; 
 }
+
+/* bg colorati */
+
+.azzurro{
+    background-color: #B4D0E6;
+}
+
+/* button */
+
+.button{
+
+}
+
+/* img */
+
