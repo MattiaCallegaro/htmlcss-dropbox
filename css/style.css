@@ -138,8 +138,13 @@ li{
 
 .align-colonne{
     justify-content:space-between;
-    align-items: center;
-    align-content: center;
+    align-items: start;
+    align-content: start;
+    flex-wrap: wrap;
+}
+
+.align-business{
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 
