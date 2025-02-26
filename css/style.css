@@ -14,7 +14,7 @@
 header{
     background-color: #ffffff;
     color: white;
-    padding: 17px 0px;
+    padding: 20px 10px;
     position: sticky;
     width: 100%;
     z-index: 1;
@@ -64,13 +64,18 @@ header{
 
 /* utility */
 
+h1{
+    width: 100%;
+    font-size: 40px;
+}
+
 .inline-block{
     display: inline-block;
 }
 
-hr{
-    margin-bottom: 50px;
-    margin-top: 50px;
+.spazio-jumbo{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a{
