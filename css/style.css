@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* contenitori */
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+header{
+    background-color: #B4D0E6;
+    color: white;
+    padding: 17px 0px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.col-logo{
+    width: 10%;
+}
+
+.header-sx{
+    width: 40%;
+    
+}
+
+.header-dx{
+    
+    width: 40%;
+    
+}
+
+.col-centrale{
+    width: 30%;
+}
+
+/* utility */
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 0px 8px;
+    display: inline-block
+    
+}
+
+.logo-small{
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* flex */
+
+.d-flex{
+    display: flex;
+}
+
+.align-content{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; 
+}
+
+.align-left{
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; 
+}
+
+.align-right{
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; 
+}
