@@ -6,6 +6,7 @@
 
 body{
     font-family:"Open Sans", sans-serif;
+    font-size: medium;
 }
 
 /* contenitori */
@@ -199,12 +200,17 @@ li{
 .arrow{
     font-size: 50px;
     position: absolute;
-    bottom: 220px;
+    bottom: 380px;
 }
 
 .hidden{
     margin-top: 70px;
     border: #FFFFFF;
+}
+
+.fa-check{
+    color: #0061FE;
+    padding-right: 10px;
 }
 
 /* flex */
@@ -255,7 +261,7 @@ li{
 }
 
 .min-hight{
-    min-height: 1000px;
+    min-height: 1030px;
 }
 
 /* bg colorati */
@@ -287,22 +293,30 @@ li{
     padding: 10px;
     background-color:#0061FE;
     color: rgb(255, 255, 255);
-    position: absolute;
-    right: 1110px;
-     
+    margin-left: 150px;      
 }
 
 .btn-inizia{
-    padding: 2px 5px;
+    padding: 10px 10px;
+    border-color: #0061FE;
     background-color:#0061FE;
     color: rgb(255, 255, 255);
 }
 
 .btn-prova{
-    padding: 10px;
+    padding: 5px 10px;
     background-color:#0061FE;
+    border-color: #0061FE;
     color: rgb(255, 255, 255);
 }
+
+.btn-prova-30gg{
+    padding: 5px 10px;
+    background-color:#0061FE;
+    border-color: #0061FE;
+    color: rgb(255, 255, 255);
+}
+
 
 /* img */
 
