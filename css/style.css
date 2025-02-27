@@ -47,6 +47,7 @@ header{
 
 .col-jumbo-img{
     width: 60%;
+    margin-top: 90px;
 }
 
 .col-logo{
@@ -71,6 +72,9 @@ header{
 
 .col-centrale{
     width: 30%;
+    padding-left: 50px;
+    margin-left: 110px;
+    margin-top: 65px;
 }
 
 .prova-gratuita{
@@ -95,8 +99,10 @@ hr{
 
 h1{
     width: 100%;
-    font-size: 40px;
-    padding: 20px 0;
+    font-size: 60px; 
+    margin-left: 160px;
+    margin-top: 60px;
+    
 }
 
 h2{
@@ -188,7 +194,7 @@ li{
 }
 
 .jumbo{
-    padding: 30px 0;
+    
     height: 650px;
 }
     
