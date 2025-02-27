@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Dropbox</title>
 </head>
 
@@ -33,9 +38,7 @@
                 </ul>
             </div>
             <div class="col-logo ">
-                <div class="button">
-                    <div><input class="button" type="button" value="Inizia"></a>
-                    </div>
+                <div><input class="btn-inizia" type="button" value="Inizia"></a>
                 </div>
             </div>
     </header>
@@ -51,15 +54,15 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                             posto <br>Dropbox Business é piú di uno spazio di archiviazione sicuro: é un modo
                             intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
-                        <div class="button">
-                            <div><input class="button" type="button" value="Inizia la tua prova gratuita"></a>
+                        <div class="prova-gratuita">
+                            <div><input class="btn-prova" type="button" value="Inizia la tua prova gratuita"></a>
                             </div>
                             <p>Annulla in qualsiasi momento</p>
-                            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+                            <div class="arrow"><i class="fa-sharp fa-solid fa-arrow-down"></i></div>
                         </div>
                     </div>
                     <div class="col-jumbo-img">
-                        <div class="jumbo-img">
+                        <div class="col-100">
                             <img class="col-100" src="./img/jumbo.png" alt="">
                         </div>
                     </div>
@@ -79,7 +82,7 @@
             <div class="col-100 d-flex align-business">
 
 
-                <div class="col-30 border-col ">
+                <div class="col-30 min-hight border-col ">
                     <div class="col-100 piano-padding align-center">
                         <i class="fa-solid fa-user"></i>Singolo
                     </div>
@@ -122,7 +125,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-30 border-col">
+                <div class="col-30 min-hight border-col">
                     <div class="col-100 piano-padding align-center">
                         <i class="fa-solid fa-users"></i>Team
                     </div>
@@ -162,7 +165,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-30 border-col">
+                <div class="col-30 min-hight border-col">
                     <div class="col-100 piano-padding align-center">
                         <i class="fa-solid fa-house"></i>Azienda
                     </div>
@@ -213,31 +216,99 @@
                                 <p>Contatta l'ufficio vendite per i prezzi</p>
                             </div>
                             <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
-                                gestione su qualsiasi scala.</p>
+                                gestione su <br> qualsiasi scala.</p>
                             <div class="col-30">
-                                <div class="button-contattaci"><input class="button" type="button"
-                                        value="Contattaci"></a>
-                                </div>
+                                <input class="btn-contattaci" type="button" value="Contatta l'ufficio vendite"></a>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="container d-flex">
+        </div>
+        <div class="container d-flex">
+            <div class="col-100">
                 <div class="col-100">
-                    <div class="testo-immagine">
-                        <img class="col-100" src="./img/partner.png" alt="">
-                    </div>
+                    <img class="col-100" src="./img/partner.png" alt="">
                 </div>
-                <div class="partner-txt d-flex align-left">
-                    <h3>Entra in contatto con un <br> partner Dropbox</h3>
-                    <p>Trova un partner Dropbox e HelloSign <br> di fiducia. Ottieni le soluzioni e i servizi <br>necessari per raggiungere i tuoi obbiettivi <br> aziendali, tra cui implementazioone, <br>integrazione, gestione e suppoto <br> continui</p>
-                    <input type="button" value="Trova un partner">
-                </div>
-
+            </div>
+            <div class="partner-txt d-flex align-left">
+                <h3>Entra in contatto con un <br> partner Dropbox</h3>
+                <p>Trova un partner Dropbox e HelloSign <br> di fiducia. Ottieni le soluzioni e i servizi
+                    <br>necessari per raggiungere i tuoi obbiettivi <br> aziendali, tra cui implementazioone,
+                    <br>integrazione, gestione e suppoto <br> continui
+                </p>
+                <input class="btn-Trova-un-partner" type="button" value="Trova un partner">
             </div>
         </div>
+        <hr class="hidden">
+
+        <div class="container d-flex align-content">
+            <h2 class="col-100">Esegui piú operazioni con Dropbox Business</h2>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            <div class="text-padding">
+                <div class="col-30">
+                    <img class="col-100" src="/img/business-feature-switching-tools.png" alt="">
+                </div>
+                <h3>Passa di meno da uno strumento all'altro</h3>
+                <p>Porta a termine le attivitá quotidiane con uno strumento. Cre, modifica e condividi contenuti cloud
+                    da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da
+                    Dropbox.</p>
+            </div>
+
+            
+        </div>
+        
     </main>
 </body>
 
